@@ -14,6 +14,10 @@ public class StudentController {
 
     @RequestMapping("/getStudents")
     public List<Student> getStudent() {
+
+
+
+        
         return studentRepo.findAll();
     }
 
